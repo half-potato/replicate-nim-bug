@@ -1,0 +1,14 @@
+{"compile":[
+["/home/amai/replicate/src/nimcache/replicate_replicate.c", "gcc -c  -w  -I/home/amai/.choosenim/toolchains/nim-0.18.0/lib -o /home/amai/replicate/src/nimcache/replicate_replicate.o /home/amai/replicate/src/nimcache/replicate_replicate.c"],
+["/home/amai/replicate/src/nimcache/stdlib_system.c", "gcc -c  -w  -I/home/amai/.choosenim/toolchains/nim-0.18.0/lib -o /home/amai/replicate/src/nimcache/stdlib_system.o /home/amai/replicate/src/nimcache/stdlib_system.c"],
+["/home/amai/replicate/src/nimcache/replicate_Test.c", "gcc -c  -w  -I/home/amai/.choosenim/toolchains/nim-0.18.0/lib -o /home/amai/replicate/src/nimcache/replicate_Test.o /home/amai/replicate/src/nimcache/replicate_Test.c"],
+["/home/amai/replicate/src/nimcache/replicate_Test1.c", "gcc -c  -w  -I/home/amai/.choosenim/toolchains/nim-0.18.0/lib -o /home/amai/replicate/src/nimcache/replicate_Test1.o /home/amai/replicate/src/nimcache/replicate_Test1.c"]
+],
+"link":[
+"/home/amai/replicate/src/nimcache/replicate_replicate.o",
+"/home/amai/replicate/src/nimcache/stdlib_system.o",
+"/home/amai/replicate/src/nimcache/replicate_Test.o",
+"/home/amai/replicate/src/nimcache/replicate_Test1.o"
+],
+"linkcmd": "gcc   -o /home/amai/replicate/replicate  /home/amai/replicate/src/nimcache/replicate_replicate.o /home/amai/replicate/src/nimcache/stdlib_system.o /home/amai/replicate/src/nimcache/replicate_Test.o /home/amai/replicate/src/nimcache/replicate_Test1.o    -ldl"
+}
